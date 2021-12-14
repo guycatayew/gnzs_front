@@ -23,9 +23,11 @@
       <div class="card-body">
         <div class="row">
           <div class="col-3">
+            <label>Имя</label>
             <input type="text" v-model="postLead.name" class="form-control">
           </div>
           <div class="col-3" v-if="type === 'leads'">
+            <label>Цена</label>
             <input type="number" v-model="postLead.price" class="form-control">
           </div>
           <div class="col-6">
